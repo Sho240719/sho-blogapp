@@ -27,5 +27,5 @@
     - if flash.present?
       .flash
         - flash.each do |key, value|
-          .key= value
+          %div{:class => key}= value
     = yield
