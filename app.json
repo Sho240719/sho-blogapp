@@ -4,7 +4,9 @@
     "keywords": [],
     "website": "",
     "repository": "https://github.com/Sho240719/sho-blogapp.git" ,
-    "env": {},
+    "env": {
+      "RAILS_ENV": "production"
+    },
     "addons": [
       "heroku-postgresql:hobby-dev"
     ],
